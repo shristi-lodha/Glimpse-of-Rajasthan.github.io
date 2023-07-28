@@ -1,0 +1,280 @@
+body,
+html {
+    background-color: skyblue;
+
+    word-wrap: break-word;
+    border-style: groove;
+
+    background-size: cover;
+
+    font-style: inherit;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+a:hover {
+    color: red;
+    background-color: lightblue;
+    /* font-size: 110%; */
+    transform: scale(1.1);
+}
+
+h1 :hover,
+h2:hover,
+b:hover {
+    font-weight: bold;
+    color: red;
+}
+
+img:hover {
+    color: sandybrown;
+    background-color: lightblue;
+    transform: scale(1.1);
+}
+
+.map {
+    
+
+    display: flex;
+    
+    border-radius: 30px;
+
+    width: 400px;
+    height: 350px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightslategray;
+
+
+}
+
+
+.title-pic {
+    width: 400px;
+    height: 350px;
+
+    display:flex;
+
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightslategrey;
+}
+
+#pic {
+   
+    display: flex;
+    flex-direction: row;
+    /* flex-wrap: wrap; */
+    justify-content: space-around;
+    
+    
+/* 
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightslategrey; */
+}
+
+.first-pic {
+    display: flex;
+    width: 400px;
+    height: 350px;
+    padding-right: 10px;
+    border-radius: 30px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 10px lightslategray;
+}
+#statement {
+    padding-left: 30px;
+}
+
+.terms {
+    color: darkred;
+    background-image: url("https://rajasthan.gov.in/footer.79fe4825d4a106496f2c.png");
+    background-size: cover;
+    padding-bottom: 300px;
+}
+
+
+#detail {
+    border: 1px solid black;
+    /* margin-left: 470px; */
+    background-image: url("https://images.unsplash.com/photo-1588084603723-41322210d44d?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fHJhamFzdGhhbnxlbnwwfHwwfHx8MA%3D%3D&w=1000&q=80");
+}
+#food {
+    border: 2px solid black;
+    /* margin-left: 470px; */
+}
+
+
+h1 {
+    text-align: center;
+
+    color: darkred;
+    text-shadow: 5px 5px 10px red;
+}
+
+h2 {
+    margin:30px;
+    color: whitesmoke;
+    text-shadow: 2px 2px 4px #000000;
+}
+
+#Quote {
+    text-align: center;
+
+    text-shadow: 2px 2px 5px darkblue;
+    display: block;
+    font-style: italic;
+    color: red;
+}
+
+.bord {
+    border: 1px solid;
+}
+
+b {
+    /* text-shadow: 2px 2px 5px red; */
+    color: white;
+    text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+}
+
+.places {
+    width: 400px;
+    height: 250px;
+    display: block;
+    border-radius: 20px;
+    border-color: red;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 10px gray;
+    image-resolution: 300dpi;
+}
+
+.places2 {
+    width: 400px;
+    height: 250px;
+   display: block;
+    border-radius: 20px;
+    border-color: red;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 10px 10px gray;
+
+}
+
+
+.festival {
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: baseline;
+    /* padding-left: 100px; */
+    align-content: safe;
+    
+
+}
+
+
+.description {
+    font-size: large;
+}
+.main-pic {
+    width: 750px;
+    height: 450px;
+    display: block;
+    justify-content: center;
+    border-radius: 20px;
+    border: 2px solid;
+    padding: 10px;
+    box-shadow: 5px 10px lightslategrey;
+}
+
+.container {
+
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* margin-left: 100px; */
+    justify-content: baseline;
+    align-self: center;
+}
+
+.places3 {
+    
+    width: 650px;
+    height: 500px;
+    
+    border: 2px solid black;
+    box-shadow: 10px 10px grey;
+    border-radius: 30px;
+    /* padding: 10px; */
+    display: block;
+    /* margin-right: 420px; */
+}
+
+.question {
+
+    display: flex;
+    flex-direction: row;
+    background-origin: border-box;
+    /* margin-left: 50px; */
+    /* justify-content: space-evenly; */
+    /* justify-content: baseline; */
+    align-content: safe;
+}
+
+.onlyques{
+    padding-left:20px;
+}
+.last {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.elephant{
+    align-content: safe;
+    -ms-flex-align: center;
+    display:flex;
+    justify-content: space-evenly;
+    margin-left: 400px;
+}
+
+.link {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+li {
+    font-family: sans-serif;
+    margin-left:50px;
+}
+@media only screen and(min-width:420px) {
+    img{
+        width:100%;
+        height:auto;
+    }
+    .elephant{
+        width: 200px;
+        height:150px;
+        display: block;
+    }
+    #one{
+        display: block;
+        image-resolution: 100dpi;
+    }
+    #two{
+        display: block;
+        image-resolution: 30dpi;
+    }
+    .three{
+        display: block;
+        image-resolution: 100dpi;
+    }
+    
+}
